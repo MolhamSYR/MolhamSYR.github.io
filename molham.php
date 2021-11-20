@@ -14,7 +14,7 @@ $body .= "From: ". $userName."\r\n";
 $body .= "Email: ". $userEmail."\r\n";
 $body .= "Message: ". $message."\r\n";
 
-mail($to,$messageSubject,$body);
+//mail($to,$messageSubject,$body);
 }
 }
 
