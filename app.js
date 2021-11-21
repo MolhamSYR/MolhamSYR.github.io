@@ -2,7 +2,9 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 function App() {
-    document.getElementById("DevHurricane").innerHTML = <Typewriter> 
+
+    
+    document.getElementById("DevHurricane").innerHTML = <Typewriter  
 
             onInit={(typewriter) => {
 
@@ -10,7 +12,9 @@ function App() {
 
             }}
         
-         </Typewriter>;
+         
+         />
+        
 }
 
 
