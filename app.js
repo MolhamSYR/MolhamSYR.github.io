@@ -14,6 +14,17 @@ function App() {
         
          
          />
+
+         document.getElementById("DevHurricaneM").innerHTML = <Typewriter  
+
+         onInit={(typewriter) => {
+
+             typewriter.typeString("Dev xHurricane...").start();
+
+         }}
+     
+      
+      />
         
 }
 
