@@ -23,6 +23,9 @@
     font-size: 22px;
 
 }
+#Message {
+    font-size: 22px;
+}
 #WebTitle {
     padding-top: 100px;
 }
@@ -30,3 +33,14 @@
     font-family: "Raleway", sans-serif
 
 }
+
+
+span{
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker{
+    50%{
+      opacity: 0;
+    }
+  }
