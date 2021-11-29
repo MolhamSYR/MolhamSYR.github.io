@@ -1,0 +1,32 @@
+.Green {
+    color: green;
+}
+.Bold {
+    font-weight: bold;
+}
+
+#titleweb {
+    margin-left: 10px;
+}
+.Achiv {
+    padding: 16px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    margin: 70px;
+    height: 600px;
+    color: green;
+    background-color: black;
+    
+}
+p.Achiv {
+
+    font-size: 100px;
+
+}
+#WebTitle {
+    padding-top: 100px;
+}
+* {
+    font-family: "Raleway", sans-serif
+
+}
