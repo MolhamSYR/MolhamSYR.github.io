@@ -5,6 +5,11 @@
     font-weight: bold;
 }
 
+.footer {
+    height: 200px;
+    background-color: bisque;
+}
+
 #titleweb {
     margin-left: 10px;
 }
