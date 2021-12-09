@@ -1,0 +1,117 @@
+* {
+    font-family: Raleway, sans-serif;
+}
+
+body {
+    height: 1200px;
+}
+
+#mainBody {
+    margin-top: 100px;
+}
+
+#myNavBar {
+    position: absoulte;
+}
+
+#calcArea {
+   
+    
+    border-radius: 20px;
+    padding: 50px;
+    padding-bottom: 80px;
+    border: black 2px solid;
+}
+
+#firstSection {
+    display: flex;
+    position: relative;
+    left: 450px;
+}
+#firstNum {
+    height: 15px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+#secondSection {
+    display: flex;
+    position: relative;
+    left: 450px;
+}
+
+#secondNum {
+    position: relative;
+    height: 15px;
+    left: 18px;
+    top: 15px;
+}
+#resultSection {
+    display: flex;
+    position: relative;
+    left: 450px;
+    
+}
+
+#resultLabel {
+    position: relative;
+    left: 25px;
+
+}
+#result {
+    position: relative;
+    height: 15px;
+    left: 60px;
+    top: 15px;
+
+}
+
+#buttonSection {
+    position: relative;
+    top: 30px;
+}
+
+#clear {
+    position: relative;
+    left: 50px;
+}
+
+footer {
+    position: relative;
+    top: 530px;
+}
+
+#calcu {
+
+    height: 50px;
+    width: 20px;
+
+
+
+
+
+
+
+}
+
+#mapImg {
+    position: relative;
+    top: 200px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
