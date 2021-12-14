@@ -91,25 +91,27 @@ body, html {
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT HURRICANE</h3>
+  
+  <h3 class="w3-center" id="aboutL">ABOUT HURRICANE</h3>
+  
   <p class="w3-center w3-large">Hello I'm Molham!</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="pInfo">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Personal Info</p>
       <p>Hello I'm Molham... This is My Portfolio I Made It Myself I'm a Front-End Engineer and soon will be a Full-Stack one!</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="Passion">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Passion</p>
       <p>I Really Enjoy Developing / Desiging Websites, I Know a Lot of Programming Languages / APIs and I will never stop learning new ones!</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="Ach">
       <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Achievments</p>
       <p>I Made a Lot of Achivements  that I can't go over it here! i recommend going to <a href="https://molhamsyr.github.io/achievements/ach.html" class="w3-hover-text-green">this website</a> or you can download my desktop app portfolio <a href="https://molhamsyr.github.io/Molham's Portfolio.exe" title="W3.CSS" class="w3-hover-text-green">here</a></p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter" id="Sup">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Support</p>
       <p>If you're here, then you probably came here because i sent you my portfolio to hire me, you can contact me on this email: <br> molham.work9@gmail.com
@@ -252,6 +254,39 @@ body, html {
 
 <script>
 // Modal Image Gallery
+
+document.getElementById("about").addEventListener("mouseenter", () => { let aboutLabel = document.getElementById("aboutL");
+
+aboutLabel.classList.add("w3-animate-opacity");
+
+});
+
+document.getElementById("pInfo").addEventListener("mouseenter", () => {
+let PDiv = document.getElementById("pInfo");
+PDiv.classList.add("w3-animate-zoom");
+});
+
+document.getElementById("Passion").addEventListener("mouseenter", () => {
+
+  let pas = document.getElementById("Passion");
+  pas.classList.add("w3-animate-zoom");
+
+});
+
+document.getElementById("Ach").addEventListener("mouseenter", () => {
+
+let Ach = document.getElementById("Ach");
+Ach.classList.add("w3-animate-zoom");
+
+});
+
+document.getElementById("Sup").addEventListener("mouseenter", () => {
+
+let sup = document.getElementById("Sup");
+sup.classList.add("w3-animate-zoom");
+
+});
+
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
