@@ -4,9 +4,9 @@ var quoteArray = ["Getting Inforamtion..." + "<br><br>" + "" + "Logging in... <b
 "<br> <br> <h2>5. Portfolio Template</h2> <img style=\"height: 200px; width: 270px;\" src=\"../assets/images/portfolio.PNG\" >  <br> <br> <p>I Made this website to help beginner web developers especially front-end engineer who wants to get started and in need for a portfolio! you can use this as a template and change the info as you want! if you want to see it check it <a href=\"https://molhamsyr.github.io/portfolio-template/index.html\"> here! </a></p><br> <br> <h2>Thanks for Reading!</h2> <br> I will make sure this portfolio is up to date! <br> for more information you can visit <a href=\"https://github.com/MolhamSYR\"> my github </a> <br> Thanks for your time! <br> <br> - Molham</p>"];
 var textPosition = 0; 
 var speed = 50;
-let readytogo = false;
 
-window.addEventListener("load", document.getElementById("info").setAttribute("style","display: none;"))
+
+
 
 typewriter = () => {
     document.querySelector("#Message").innerHTML = quoteArray[0].substring(0, textPosition) + '<span>\u25AE</span>';
