@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" type="image/x-icon" href="Logo.ico" />
+<link rel="stylesheet" href="style.css">
     <title>To Do List</title>
 </head>
 <body>
@@ -24,14 +25,14 @@
 
     <div class="w3-top">
         <div class="w3-bar w3-white w3-card" id="myNavbar">
-          <a href="#home" class="w3-bar-item w3-button w3-wide">M O L H A M</a>
+          <a href="https://molhamsyr.github.io" class="w3-bar-item w3-button w3-wide">M O L H A M</a>
           <!-- Right-sided navbar links -->
           <div class="w3-right w3-hide-small">
-            <a href="#about" class="w3-bar-item w3-button"> <i class="fa fa-user"></i> ABOUT</a>
+            <a href="https://molhamsyr.github.io/#about" class="w3-bar-item w3-button"> <i class="fa fa-user"></i> ABOUT</a>
             <a href="https://github.com/MolhamSYR" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> GITHUB</a>
-            <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-            <a href="#skills" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> SKILLS</a>
-            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="https://molhamsyr.github.io/#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+            <a href="https://molhamsyr.github.io/#skills" class="w3-bar-item w3-button"><i class="fa fa-diamond"></i> SKILLS</a>
+            <a href="https://molhamsyr.github.io/#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
           </div>
           <!-- Hide right-floated links on small screens and replace them with a menu icon -->
       
@@ -54,9 +55,28 @@
 
       <div id="title">
 
-        <center> <h1>Remember, Dreams can become true! <i class="fa fa-diamond"></i><br> If they can do it, then you can<br>____________</h1></center>
+        <center> <h1>Remember, Dreams can become true! <i class="fa fa-diamond"></i><br> If they can do it, then you can<br><br></h1>
+        <input type="text" id="inputT" class="w3-input w3-border">
+        <button onclick="createTask()" class="w3-button w3-black buttons"> Add </button>
+        <button onclick="deleteTask()" class="w3-button w3-black buttons"> Delete </button>
+        </center>
 
       </div>
+      <center>     
+         <div id="container">
+        
+
+
+        </div>
+      </center>
+
+
+      <script src="script.js">
+
+
+
+
+      </script>
     
 </body>
 </html>

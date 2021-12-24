@@ -1,0 +1,44 @@
+.task {
+
+    background-color: bisque;
+    position: relative;
+    height: 100px;
+    width: 1050px;
+    margin-top: 30px;
+    border: 2px black solid;
+    border-radius: 35px;
+
+
+
+}
+
+.task:hover {
+    border-color: gray;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.textTask {
+    padding-top: 10px;
+    color: darkgray
+}
+
+#inputT {
+
+    text-align: center;
+
+
+
+
+}
+
+.buttons {
+
+margin-top: 20px;;
+
+
+}
+
+.pointer {
+    cursor: pointer;
+}
