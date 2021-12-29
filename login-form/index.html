@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Logo.ico" />
+    <link rel="stylehseet" href="style.css">
+    <title>Hurricane Template</title>
+</head>
+<body>
+    <style>
+
+        
+
+        #webBody {
+            height: 1500px;
+            background-size: cover;
+            background-attachment: fixed;
+            color: cadetblue;
+            font-family: sans-serif;
+            background-repeat: no-repeat;
+            background-image: url("back.gif");
+            padding-top: 100px;
+        }
+
+        #info {
+            height: 600px;
+            border-radius: 40px;
+            background-color: rgb(1, 28, 59);
+            width: 75%;
+            margin-top: 100px;
+        }
+
+        #Title {
+            padding-top:  30px;
+            font-size: 70px;
+        }
+
+        .para {
+            font-size: 25px;
+            text-align: center;
+            
+        }
+
+        .stuff {
+            padding-top: 40px;
+        }
+
+        #input1 {
+            position: relative;
+            top: 70px;
+            left: 5px;
+            background-color: cadetblue;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+        }
+        #input1:focus {
+            transition: 0.6s;
+            transform: scale(1.1);
+            text-decoration: none;
+            border-color: white;
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 25px;
+            box-shadow: 0 0 0 2px black;
+            
+        }
+
+        #input2 {
+            position: relative;
+            top: 170px;
+            left: 5px;
+            background-color: cadetblue;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+
+        }
+        #input2:focus {
+            transition: 0.6s;
+            transform: scale(1.1);
+            text-decoration: none;
+            border-color: white;
+            border-width: 3px;
+            border-style: solid;
+            border-radius: 25px;
+            box-shadow: 0 0 0 2px black;
+            
+        }
+
+        #btn {
+            position: relative;
+            top: 250px;
+            width: 120px;
+            border: 2px cadetblue solid;
+            border-radius: 20px;
+            color: cadetblue;
+            background-color: rgb(1, 28, 59);
+        }
+
+        #btn:hover {
+            transition: 0.6s;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        .copy {
+            color: cadetblue;
+            position: relative;
+            top: 360px;
+            right: 360px;
+        }
+
+        @media only screen and (min-width: 720px) {
+
+            #input1 {
+            position: relative;
+            top: 70px;
+            left: 128px;
+            
+        }
+        #input2 {
+            position: relative;
+            
+            left: -130px;
+        }
+
+
+        }
+
+        
+
+
+    </style>
+
+    <!--#00203FFF Blue || #ADEFD1FF Bright Blue--> 
+    
+    <div class="w3-top">
+        <div class="w3-bar w3-cyan w3-card" id="myNavbar">
+          <a href="#home" class="w3-bar-item w3-button w3-wide">COMPANY'S LOGO</a>
+     
+          <div class="w3-right w3-hide-small">
+            
+            <a href="#" class="w3-bar-item w3-button w3-wide"><i class="fa fa-question"></i> WHY US</a>
+            <a href="#" class="w3-bar-item w3-button w3-wide"><i class="fa fa-envelope"></i> CONTACT</a>
+          </div>
+          
+      
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+            
+          </a>
+        </div>
+    </div>
+      
+      
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">SKILLS</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
+
+      
+    <div id="webBody">
+        <center>
+        <div id="info" >
+            <div class="stuff">
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 40px;" id="txt">L O G I N</h2>
+
+        </div>
+        <div class="fields">
+            <form>
+            <input type="text" id="input1">
+            <input type="text" id="input2">
+            <center>
+            <button type="button" id="btn">Submit</button>
+            <p class="copy">Copyright © 2022 xHurricane</p>
+        </center>
+        </form>
+        </div>
+
+        </div>
+       
+    </center>
+       
+    </div>
+
+    <script>
+
+        let btn = document.getElementById("btn");
+        let user = document.getElementById("input1");
+        let pass = document.getElementById("input2");
+        let txt = document.getElementById("txt");
+
+        btn.onclick = () => {
+        
+            if(pass.value === "123") {
+                txt.textContent = "WELCOME BACK " + user.value.toUpperCase();
+            }
+            else {
+                window.alert("Username or Password are invalid!");
+            }
+
+
+        }
+
+
+
+    </script>
+    <script>
+
+        
+    </script>
+</body>
+</html>
