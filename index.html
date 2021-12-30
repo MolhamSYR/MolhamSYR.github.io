@@ -15,6 +15,23 @@
 <link rel="stylesheet" href="mainstyle.css">
 </head>
 <style>
+
+.floating { 
+            animation-name: floating;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+ 
+        @keyframes floating {
+            0% { transform: translate(0,  0px); }
+            50%  { transform: translate(0, 15px); }
+            100%   { transform: translate(0, -0px); }   
+        }
+
+
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 body, html {
@@ -96,22 +113,22 @@ body, html {
   
   <p class="w3-center w3-large">Hello I'm Molham!</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter" id="pInfo">
+    <div class="w3-quarter" id="pInfo" class="floating">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Personal Info</p>
       <p>Hello I'm Molham... This is My Portfolio I Made It Myself I'm a Front-End Engineer and soon will be a Full-Stack one!</p>
     </div>
-    <div class="w3-quarter" id="Passion">
+    <div class="w3-quarter" id="Passion" class="floating">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Passion</p>
       <p>I Really Enjoy Developing / Desiging Websites, I Know a Lot of Programming Languages / APIs and I will never stop learning new ones!</p>
     </div>
-    <div class="w3-quarter" id="Ach">
+    <div class="w3-quarter" id="Ach" class="floating">
       <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Achievments</p>
       <p>I Made a Lot of Achivements  that I can't go over it here! i recommend going to <a href="https://molhamsyr.github.io/achievements/ach.html" class="w3-hover-text-green">this website</a> or you can download my desktop app portfolio <a href="https://molhamsyr.github.io/Molham's Portfolio.exe" title="W3.CSS" class="w3-hover-text-green">here</a></p>
     </div>
-    <div class="w3-quarter" id="Sup">
+    <div class="w3-quarter" id="Sup" class="floating">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Support</p>
       <p>If you're here, then you probably came here because i sent you my portfolio to hire me, you can contact me on this email: <br> molham.work9@gmail.com
