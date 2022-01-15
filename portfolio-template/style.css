@@ -9,6 +9,7 @@
 body {
     
     margin: 0px;
+    
 }
 
 html,body {
@@ -21,9 +22,10 @@ html,body {
 }
 
 #nav {
-    position: absolute;
-    
+    position: fixed;
 }
+
+
 
 #PP {
     margin: 0px;
@@ -55,7 +57,7 @@ html,body {
 #work {
     position: relative;
     background-color: rgb(4, 23, 43);
-    top: 200px;
+    top: 250px;
     left: 125px;
     right: 100px;
     height: 550px;
@@ -112,8 +114,16 @@ h2.PortInfo {
     height: 400px;
     width: 350px;
     top: 100px;
-    left: 50px;
-    margin-left: 450px;
+    left: 550px;
+    bottom: 300px;
+
+}
+
+@media screen and (max-width: 500px) {
+
+        
+
+
 
 }
 
