@@ -20,8 +20,13 @@ if((relation.value == "Enemy")) {
 }
 
 
+
 else if(lastSeen.value == dayKilled) {
     alert("You are Suspicious! Please come with us!");
+}
+
+else {
+    alert("You're Good To Go! Investigation Will Continue");
 }
 
 }
