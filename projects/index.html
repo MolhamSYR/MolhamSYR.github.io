@@ -31,6 +31,26 @@
     </div>
   </div>
   <!-- End Side bar for big windows -->
+
+
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+    style="display:none; background-color: black; z-index: 3;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16"
+      style="color: white">Close ×</a>
+    <a href="https://molhamsyr.github.io/" onclick="w3_close()" class="w3-bar-item bar-item-color">GO BACK</a>
+    
+
+  </nav>
+
+
+
+
+
+
+
+
+
+
   
   
   <div id="WebTitle">
@@ -45,7 +65,7 @@
     <p id="Message">Getting Information..<br><br>Logging in..<br>Success!</p>
     <div id="info">
         
-    <h2 style="font-size: 44px;">1. Portfolio<br></h2>
+    
     <p id="InfoPort"></p>
 
 
@@ -72,7 +92,27 @@
 
 
 
-    
+    <script>
+
+function w3_open() {
+
+
+
+if (mySidebar.style.display === 'block') {
+  mySidebar.style.display = 'none';
+} else {
+  mySidebar.style.display = 'block';
+}
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+mySidebar.style.display = "none";
+}
+
+
+
+    </script>
 
 
 

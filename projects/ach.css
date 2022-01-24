@@ -18,12 +18,22 @@
     border-radius: 50px;
     border: 2px solid gray;
     margin: 70px;
-    height: 3900px;
+    height: 3300px;
     color: green;
     background-color: black;
     
     
 }
+
+@media (max-width: 600px) {
+
+    .Achiv {
+        height: 3850px;
+    }
+
+
+}
+
 .AchivP {
 
     font-size: 22px;

@@ -46,7 +46,7 @@
 
   <!--START OF NAV BAR (SMALL SCREENS)-->
   <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
-    style="display:none; background-color: black;" id="mySidebar">
+    style="display:none; background-color: black; z-index: 3;" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16"
       style="color: white">Close ×</a>
     <a href="#" onclick="w3_close()" class="w3-bar-item bar-item-color">Home</a>
@@ -129,7 +129,7 @@
 
             <div class="w3-center">
 
-              <button class="w3-round" style=" background-color: rgb(4, 28, 51); z-index: 2;"
+              <button class="w3-round" style=" background-color: rgb(4, 28, 51); z-index: 1;"
                 id="btnReveal">Reveal</button>
               <p class="w3-xxlarge w3-center" style="color:white; position: relative;top: 350px;">Programming Languages
                 <i class="fa fa-desktop"></i>
@@ -147,7 +147,7 @@
 
                     <!--  FIRST CARD DIV CENTER IMAGE START -->
                     <div class="w3-center">
-                      <img src="./logos/html5.png" alt="HTML Logo" class="imgLogo">
+                      <img src="./logos/html5.png" alt="HTML Logo" style="width:300px;" class="imgLogo">
                     </div>
                     <!--  FIRST CARD DIV CENTER IMAGE END-->
 
@@ -176,7 +176,7 @@
                   <div class="w3-third w3-card w3-myheader-color-back Cards">
                     <!--SECOND CARD DIV CENTER START-->
                     <div class="w3-center">
-                      <img src="./logos/css3.png" alt="HTML Logo" class="imgLogo" id="cssImg">
+                      <img src="./logos/css3.svg" alt="HTML Logo" class="imgLogo" id="cssImg">
                     </div>
                     <!--SECOND CARD DIV CENTER END-->
 
