@@ -294,13 +294,80 @@ html::-webkit-scrollbar-track {
     height: 300px;
 }
 
-@media only screen and (max-width: 342px) {
+.htmlLogo {
+    width: 300px;
+}
+
+.firstTitle {
+    font-size: 90px;
+     padding-left: 60px;
+     font-family: 'Bebas Neue', cursive; 
+     color: white;
+}
+
+#ad {
+    font-size: 40px;
+     padding-left: 90px;
+      color: white;
+}
+
+#textAbout {
+    color:white;
+    font-size: 22px;
+}
+
+
+
+@media only screen and (max-width: 392px) {
+
+    
 
     .Cards {
-        /*width: 200px;*/
+        width: 200px;
         position: relative;
-        right: 20px;
+        right: 8%;
     }
+
+    #htmlLogoOwO {
+        width: 200px;
+    }
+
+    #pythonImg {
+       width: 200px;
+    }
+
+    .firstTitle {
+        font-size: 70px;
+        
+    }
+    #ad {
+        font-size: 28px;
+    }
+
+    #textAbout {
+        font-size: 16px;    
+    }
+
+    #titleA {
+        font-size: 35px;
+    }
+
+    #cssImg {
+        width: 160px;
+    }
+
+    #titleExp {
+        font-size: 4px;
+    }
+
+    #jsImg {
+        width: 150px;
+    }
+
+    #csharpImg {
+        width: 180px;
+    }
+
 
     #frameTitle {
         position: relative;
@@ -310,6 +377,8 @@ html::-webkit-scrollbar-track {
     #titleExp {
         font-size: 45px;
     }
+
+    
 
 
 
@@ -340,10 +409,6 @@ html::-webkit-scrollbar-track {
     width: 300px;
 }
 
-#pythonImg {
-    width: 280px;
-    height: 280px;
-}
 
 
 
