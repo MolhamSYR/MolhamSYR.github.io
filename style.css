@@ -395,6 +395,11 @@ html::-webkit-scrollbar-track {
         margin-top: 50px;
     }
 
+    #csharpImg {
+        width: 100px;
+    
+    }
+
 }
 
 .jsStuff {

@@ -127,9 +127,9 @@
             <p style="margin:0px;" id="titleExp" class="w3-center w3-wide ExpMargin">Experiences</p>
 
             <div class="w3-center">
-
+              <!--
               <button class="w3-round" style=" background-color: rgb(4, 28, 51); z-index: 1;"
-                id="btnReveal">Reveal</button>
+                id="btnReveal">Reveal</button> -->
               <p class="w3-center proLang" style="color:white; position: relative;top: 350px;">Programming Languages
                 <i class="fa fa-desktop"></i>
               </p>
@@ -759,9 +759,9 @@
     let w3css = document.getElementById("myBarw3css");
 
 
-    button.onclick = () => {
+    
 
-
+    window.onload = () => {
       if (counter === 0) {
 
         move(html, 100);
@@ -779,8 +779,8 @@
         counter++;
 
       }
-
     }
+    
 
 
 
