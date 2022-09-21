@@ -294,6 +294,7 @@ html::-webkit-scrollbar-track {
     height: 300px;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 442px) {
 
     .Cards {
@@ -409,16 +410,33 @@ html::-webkit-scrollbar-track {
        top: 50px;
         border-radius: 20px;
 }
+=======
+@media only screen and (max-width: 342px) {
+
+    .Cards {
+        /*width: 200px;*/
+        position: relative;
+        right: 20px;
+    }
+
+    #frameTitle {
+        position: relative;
+        left: 12px;
+    }
+>>>>>>> parent of 8c2f3f0 (Flexibility Improved)
 
 @media only screen and (max-width: 270px) {
     .firstTitle {
         font-size: 55px;
 
+<<<<<<< HEAD
     }
 
     .changingSign {
         font-size: 25px;
     }
+=======
+>>>>>>> parent of 8c2f3f0 (Flexibility Improved)
 
     #titleA {
         font-size: 25px;
