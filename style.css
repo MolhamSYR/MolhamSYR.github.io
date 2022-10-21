@@ -294,11 +294,10 @@ html::-webkit-scrollbar-track {
     height: 300px;
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 442px) {
+@media only screen and (max-width: 342px) {
 
     .Cards {
-        width: 200px;
+        /*width: 200px;*/
         position: relative;
         right: 20px;
     }
@@ -313,134 +312,6 @@ html::-webkit-scrollbar-track {
     }
 
 
-}
-
-.firstTitle {
-
-    font-size: 90px;
-    padding-left: 60px;
-    font-family: 'Bebas Neue', cursive;
-    color: white;
-
-
-}
-
-.changingSign {
-
-    font-size: 40px;
-    padding-left: 90px;
-    color: white
-
-
-}
-
-.proLang {
-    font-size: 35px;
-}
-
-#htmlImg {
-
-    width: 300px;
-
-}
-
-@media only screen and (max-width: 394px) {
-
-    .firstTitle {
-        font-size: 75px;
-    }
-
-    .changingSign {
-        font-size: 35px;
-    }
-
-    #titleA {
-        font-size: 35px;
-    }
-
-    #textAbout {
-        
-         font-size: 16px !important;
-    }
-
-    #titleExp {
-        font-size: 35px;
-    }
-
-    .proLang {
-        font-size: 24px;
-    }
-
-    .Cards {
-        left: 20px;
-    }
-
-    /*Images in the cards*/
-    #htmlImg {
-        width: 200px;
-        position: relative;
-        right: 12px;
-    }
-
-    #cssImg {
-        width: 200px;
-        height: 300px;
-    }
-    
-    #jsImg {
-        width: 170px;
-        height: 190px;
-    }
-
-    .jsStuff {
-        margin-top: 50px;
-    }
-
-    #csharpImg {
-        width: 100px;
-    
-    }
-
-}
-
-.jsStuff {
-    height: 20px;
-     background-color: rgb(7, 38, 59);
-      position: relative;
-       top: 50px;
-        border-radius: 20px;
-}
-=======
-@media only screen and (max-width: 342px) {
-
-    .Cards {
-        /*width: 200px;*/
-        position: relative;
-        right: 20px;
-    }
-
-    #frameTitle {
-        position: relative;
-        left: 12px;
-    }
->>>>>>> parent of 8c2f3f0 (Flexibility Improved)
-
-@media only screen and (max-width: 270px) {
-    .firstTitle {
-        font-size: 55px;
-
-<<<<<<< HEAD
-    }
-
-    .changingSign {
-        font-size: 25px;
-    }
-=======
->>>>>>> parent of 8c2f3f0 (Flexibility Improved)
-
-    #titleA {
-        font-size: 25px;
-    }
 
 }
 
@@ -452,7 +323,7 @@ html::-webkit-scrollbar-track {
 
 
 .tempCenter {
-    
+
     position: relative;
     left: 4%;
 
@@ -483,8 +354,6 @@ html::-webkit-scrollbar-track {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    color:white;
-     font-size: 22px;
 }
 
 
