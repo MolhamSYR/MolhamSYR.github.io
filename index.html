@@ -25,7 +25,7 @@
 
     <div class="w3-bar w3-card theNavBar">
 
-      <a href="#" class="w3-bar-item w3-wide bar-item-color">M O L H A M</a>
+      <a href="#" class="w3-bar-item w3-wide bar-item-color">S O M E O N E</a>
       <div class="w3-right w3-hide-small">
 
         <a href="#" class="w3-bar-item bar-item-color">Home</a>
@@ -46,7 +46,7 @@
 
   <!--START OF NAV BAR (SMALL SCREENS)-->
   <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
-    style="display:none; background-color: black;" id="mySidebar">
+    style="display:none; background-color: black; z-index: 3;" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16"
       style="color: white">Close ×</a>
     <a href="#" onclick="w3_close()" class="w3-bar-item bar-item-color">Home</a>
@@ -66,7 +66,11 @@
         <h1 class="firstTitle"
           style="font-size: 90px; padding-left: 60px;font-family: 'Bebas Neue', cursive; color: white;">I'm
           Molham</h1>
+<<<<<<< HEAD
+        <h3 class="changingSign">I'm a <span id="job"></span></h3>
+=======
         <h3 style="font-size: 40px; padding-left: 90px; color: white">I'm a <span id="job"></span></h3>
+>>>>>>> parent of 8c2f3f0 (Flexibility Improved)
       </div>
 
       <div class="w3-display-bottomleft">
@@ -128,10 +132,15 @@
             <p style="margin:0px;" id="titleExp" class="w3-center w3-wide ExpMargin">Experiences</p>
 
             <div class="w3-center">
-
-              <button class="w3-round" style=" background-color: rgb(4, 28, 51); z-index: 2;"
+              <!--
+              <button class="w3-round" style=" background-color: rgb(4, 28, 51); z-index: 1;"
+<<<<<<< HEAD
+                id="btnReveal">Reveal</button> -->
+              <p class="w3-center proLang" style="color:white; position: relative;top: 350px;">Programming Languages
+=======
                 id="btnReveal">Reveal</button>
               <p class="w3-xxlarge w3-center" style="color:white; position: relative;top: 350px;">Programming Languages
+>>>>>>> parent of 8c2f3f0 (Flexibility Improved)
                 <i class="fa fa-desktop"></i>
               </p>
             </div>
@@ -147,7 +156,11 @@
 
                     <!--  FIRST CARD DIV CENTER IMAGE START -->
                     <div class="w3-center">
-                      <img src="./logos/html5.png" alt="HTML Logo" class="imgLogo">
+<<<<<<< HEAD
+                      <img src="./logos/html5.png" alt="HTML Logo" id="htmlImg" class="imgLogo">
+=======
+                      <img src="./logos/html5.png" alt="HTML Logo" style="width:300px;" class="imgLogo">
+>>>>>>> parent of 8c2f3f0 (Flexibility Improved)
                     </div>
                     <!--  FIRST CARD DIV CENTER IMAGE END-->
 
@@ -182,7 +195,7 @@
 
 
                     <!--SECOND CARD BAR START-->
-                    <div class="w3-display-container"
+                    <div class="w3-display-container cssStuff"
                       style="height: 20px; background-color: rgb(7, 38, 59); position: relative; top: 20px; border-radius: 20px;">
 
                       <div id="myBarCSS" class="w3-container w3-red w3-center"
@@ -214,8 +227,8 @@
 
 
                     <!--THIRD CARD BAR START-->
-                    <div class="w3-display-container"
-                      style="height: 20px; background-color: rgb(7, 38, 59); position: relative; top: 50px; border-radius: 20px;">
+                    <div class="w3-display-container jsStuff"
+                      >
 
                       <div id="myBarJS" class="w3-container w3-red w3-center"
                         style="width: 2%;border-radius: 20px ; background-color: cadetblue; color: white;">0%
@@ -760,9 +773,9 @@
     let w3css = document.getElementById("myBarw3css");
 
 
-    button.onclick = () => {
+    
 
-
+    window.onload = () => {
       if (counter === 0) {
 
         move(html, 100);
@@ -780,8 +793,8 @@
         counter++;
 
       }
-
     }
+    
 
 
 
