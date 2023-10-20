@@ -28,6 +28,10 @@
         // Storing data in form of JSON
         var data = await response.json();
     
+        if(data.nsfw) {
+            getapi(url);
+        }
+
         console.log(data.preview[2]);
 
       //  document.getElementById("meme").setAttribute("style","width: " + data.data.memes[count].width + "px;" + "height: " + data.data.memes[count].height + "px;");
