@@ -1,0 +1,99 @@
+.Green {
+    color: green;
+}
+.Bold {
+    font-weight: bold;
+}
+
+.footer {
+    height: 200px;
+    background-color: bisque;
+}
+
+#titleweb {
+    margin-left: 10px;
+}
+
+#trigFetch {
+    width: 20vw;
+    height: 10vh;
+    border-radius: 30px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.Achiv {
+    padding: 16px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    margin: 70px;
+    height: 100%;
+    color: black;
+    background-color: white;
+    justify-self: center;
+    
+}
+
+.codeforcesContest {
+    font-size: 25px;
+
+}
+
+.Achiv2 {
+    padding: 16px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    margin: 70px;
+    height: 3300px;
+    color: green;
+    background-color: black;
+    /*align-self: center;*/
+    
+}
+
+#mainShit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cfContest {
+    width: 100%;
+    background-color: white;
+    border-color: gray;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+}
+
+@media (max-width: 600px) {
+
+    .Achiv {
+        height: 3850px;
+    }
+
+
+}
+
+.AchivP {
+
+    font-size: 22px;
+
+}
+#Message {
+    font-size: 30px;
+}
+
+#Message:hover {
+    
+}
+
+#WebTitle {
+    padding-top: 100px;
+}
+* {
+    font-family: "Raleway", sans-serif
+
+}
