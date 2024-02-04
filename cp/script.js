@@ -7,7 +7,13 @@ var cfDiv = document.getElementById("codeforcesEv");
 var cnt = 0;
 var list = [];
 
+var clicked = false;
+
 btn.onclick = () => {
+
+if(clicked) return;
+
+clicked = true;
 
 fetch(codeforces)
   .then(response => {

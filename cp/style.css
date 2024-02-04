@@ -14,6 +14,16 @@
     margin-left: 10px;
 }
 
+#trigFetch:hover {
+    background-color: bisque;
+    transform: scale(1.1);
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+
+}
+
+
 #trigFetch {
     width: 20vw;
     height: 10vh;
@@ -84,10 +94,6 @@
 }
 #Message {
     font-size: 30px;
-}
-
-#Message:hover {
-    
 }
 
 #WebTitle {
