@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkMyWords - Organize Your Class Board Photos</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #390380, #1a5d9c);
+            /*background: linear-gradient(135deg, #4CAF50, #8BC34A);*/
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        .hero-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: calc(30% - 20px);
+            margin: 1rem;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .cta-section {
+            background: #fff;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .download-btns {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .download-btn {
+            background: #390380;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: #1a5d9c;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color:  #1a5d9c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 600px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mark My Words</h1>
+        <p>Never Miss a Note Again! Turn your class board chaos into organized, searchable notes.</p>
+    </header>
+
+    <div class="container">
+
+        <section class="hero">
+            <div class="hero-image">
+                <img src="MarkMyWords.jpg" alt="MarkMyWords App Mockup">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Auto-Organize by Subject</h3>
+                <p>No more "Was this Calculus or Chemistry?" moments. This sorts it for you.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Persistent Storage</h3>
+                <p>Easily Search between your photos depending on when you've taken them.</p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Download MarkMyWords Today and become smarter!</h2>
+            <div class="download-btns">
+                <a href="https://download1500.mediafire.com/bfda97f0bmegmQXf35ADiFjcM5C-aEzQFNxmxLr4_E2j3J9QhYknG2rgMnctKa4k0VgV7H95YFKjRxhwJNlbwHkAW9Wq37uJZXPllXcC_OSvAsbWvnzVQ3lswwh_awVmziqxhjtrzDfEAvoHfDBOT-6PnLhd8oT7IqDyDa0Wv2s/w3h8s7o6qylfbiv/MarkMyWords-1.0.apk">
+                    <button class="download-btn" id="nice-button">Download on Android</button>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Molham Alkhatib. Not a single right reserved. | <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">I really need to start studying</a></p>
+    </footer>
+
+    <script>
+
+        let btn = document.getElementById("nice-button");
+
+        btn.onclick = () => {
+
+            window.r
+
+        }
+
+
+    </script>
+
+</body>
+</html>
